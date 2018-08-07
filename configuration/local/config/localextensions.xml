@@ -10,13 +10,13 @@
     <extension name='solrserver' />
 
 
-    <extension dir="/Users/bogste/devspc/learn/hybris/quackers/online-shop/hybris/bin/custom/qoshop/qoshopfulfilmentprocess"/>
-    <extension dir="/Users/bogste/devspc/learn/hybris/quackers/online-shop/hybris/bin/custom/qoshop/qoshopcockpits"/>
-    <extension dir="/Users/bogste/devspc/learn/hybris/quackers/online-shop/hybris/bin/custom/qoshop/qoshopcore"/>
-    <extension dir="/Users/bogste/devspc/learn/hybris/quackers/online-shop/hybris/bin/custom/qoshop/qoshopfacades"/>
-    <extension dir="/Users/bogste/devspc/learn/hybris/quackers/online-shop/hybris/bin/custom/qoshop/qoshoptest"/>
-    <extension dir="/Users/bogste/devspc/learn/hybris/quackers/online-shop/hybris/bin/custom/qoshop/qoshopinitialdata"/>
-    <extension dir="/Users/bogste/devspc/learn/hybris/quackers/online-shop/hybris/bin/custom/qoshop/qoshopstorefront"/>
+    <extension dir="${HYBRIS_BIN_DIR}/custom/qoshop/qoshopfulfilmentprocess"/>
+    <extension dir="${HYBRIS_BIN_DIR}/custom/qoshop/qoshopcockpits"/>
+    <extension dir="${HYBRIS_BIN_DIR}/custom/qoshop/qoshopcore"/>
+    <extension dir="${HYBRIS_BIN_DIR}/custom/qoshop/qoshopfacades"/>
+    <extension dir="${HYBRIS_BIN_DIR}/custom/qoshop/qoshoptest"/>
+    <extension dir="${HYBRIS_BIN_DIR}/custom/qoshop/qoshopinitialdata"/>
+    <extension dir="${HYBRIS_BIN_DIR}/custom/qoshop/qoshopstorefront"/>
 
     <!-- <extension name='yacceleratorcockpits' /> -->
     <!-- <extension name='yacceleratorinitialdata' />  -->
