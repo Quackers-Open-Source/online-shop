@@ -1,0 +1,38 @@
+# Normalize line endings between all OS.
+# Please see https://help.github.com/articles/dealing-with-line-endings/ for details.
+#
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.css text
+*.java text
+*.jmx text
+*.js text
+*.json text
+*.jsp text
+*.less text
+*.md text
+*.number text
+*.properties text
+*.sh text
+*.svg text
+*.tag text
+*.tld text
+*.txt text
+*.xmi text
+*.xml text
+*.xsd text
+
+
+# Denote all files that are truly binary and should not be modified.
+*.eot binary
+*.gif binary
+*.jpg binary
+*.jar binary
+*.png binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
