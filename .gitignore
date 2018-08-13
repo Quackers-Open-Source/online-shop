@@ -34,7 +34,7 @@ hybris/bin/*
 !hybris/bin/custom/
 
 # Absolute path to ignore
-hybris/config/local.properties
+local-env.properties
 
 #IDE files
 **/.idea/*

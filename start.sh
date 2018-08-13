@@ -5,9 +5,10 @@ THIS_PATH=`readlink -f "${BASH_SOURCE[0]}" 2>/dev/null || echo $0`
 SCRIPT_DIR=`dirname "${THIS_PATH}"`
 
 source ${SCRIPT_DIR}/scripts/meta.sh
-
+source ${HYBRIS_RUNTIME_PROPERTIES}
 
 # Start Docker Compose Services (DB etc.)
+echo "Starting Docker Compose services..."
 cd ${DOCKER_COMPOSE_DIR}
 docker-compose -p quackers up -d
 
