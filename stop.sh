@@ -11,6 +11,7 @@ source ${SCRIPT_DIR}/scripts/meta.sh
 cd ${HYBRIS_BIN_DIR}/platform
 ./hybrisserver.sh stop
 
+echo "Stopping Docker Compose services..."
 cd ${DOCKER_COMPOSE_DIR}
 docker-compose -p quackers stop
 
