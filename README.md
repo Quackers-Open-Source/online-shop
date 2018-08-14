@@ -1,3 +1,1 @@
-# Welcome to Quackers!
-
-It's all about quacking! (srsly)
+# online-shop
