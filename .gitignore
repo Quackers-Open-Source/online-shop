@@ -9,6 +9,11 @@ gensrc
 # Folders to ignore at the root of the repository
 installer/
 build-tools/
+c4c-integration/
+hybris-Mobile-Apps-SDK/
+hybris-ems/
+hybris-sbg/
+licenses/
 
 # Ignore symbolic link
 hybris/config
@@ -21,12 +26,15 @@ hybris/data/
 hybris/licenses/
 hybris/sampleconfigurations/
 
+!hybris/bin/platform/lib/dbdriver/mysql-connector-java-8.0.12.jar
+!hybris/bin/platform/lib/dbdriver/mysql-connector-java-8.0.12.jar-LICENSE
+
 # filter only custom extension
 hybris/bin/*
 !hybris/bin/custom/
 
 # Absolute path to ignore
-hybris/config/local.properties
+local-env.properties
 
 #IDE files
 **/.idea/*
